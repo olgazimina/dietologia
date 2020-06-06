@@ -1,0 +1,117 @@
+#article_cont_big_no_limits_article {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    -o-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+#article_text {
+    -webkit-order: 30;
+    -ms-order: 30;
+    order: 30;
+    line-height: 1.4em;
+}
+#image_box {
+    -webkit-order: 10;
+    -ms-order: 10;
+    order: 10;
+}
+#header_box {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    -o-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-align-items: baseline;
+    -moz-align-items: baseline;
+    -ms-align-items: baseline;
+    align-items: baseline;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-order: 20;
+    -ms-order: 20;
+    order: 20;
+    -webkit-flex: 1 0;
+    -ms-flex: 1 0;
+    flex: 1 0;
+}
+#top_diet_data_article {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 200px;
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    -o-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-align-items: baseline;
+    -moz-align-items: baseline;
+    -ms-align-items: baseline;
+    align-items: baseline;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-order: 10;
+    -ms-order: 10;
+    order: 10;
+    -webkit-flex: 1 0 100%;
+}
+#diet_name_article {
+    font-family: "Roboto", sans-serif;
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    padding-top: 0.3em;
+    -webkit-order: 20;
+    -moz-order: 20;
+    -ms-order: 20;
+    -o-order: 20;
+    order: 20;
+    color: #924527;
+}
+.diet_category_article {
+    -webkit-order: 22;
+    -moz-order: 22;
+    -ms-order: 22;
+    -o-order: 22;
+    order: 22;
+    font-size: 0.8em;
+    text-align: left;
+}
+#soc_net {
+    -webkit-order: 29;
+    -ms-order: 29;
+    order: 29;
+    padding-top: 1em;
+}
+#floated_image_article {
+    margin: 0 0.4em 0 0;
+    padding: 0.4em;
+    border: dashed 1px gray;
+    border-radius: 3px;
+}
+.standart_link_no_border {
+    text-decoration: none;
+    color: #2f4f4f;
+}
+#vk_comments {
+    margin: 0 auto;
+    -webkit-order: 70;
+    -ms-order: 70;
+    order: 70;
+}
